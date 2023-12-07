@@ -8,6 +8,8 @@ services:
      - ./Strapi/.env
     ports:
       - "1337:1337"
+    networks:
+      - custom_net
       
   landing:
     build:
@@ -16,5 +18,16 @@ services:
     container_name: landing
     ports:
       - "3000:3000"
+    networks:
+      - custom_net
     depends_on:
       - strapi
+
+networks:
+  custom_net:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.1.0/24
+          gateway: 192.168.1.1
