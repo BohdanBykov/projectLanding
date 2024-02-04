@@ -10,3 +10,12 @@ export default [
   'strapi::favicon',
   'strapi::public',
 ];
+
+module.exports = {
+  settings: {
+    cors: {
+      enabled: true,
+      origin: ['http://localhost:1337'],
+    },
+  },
+};

@@ -9691,7 +9691,7 @@
 
 "ts-zen@git+https://github.com/strapi/ts-zen.git#66e02232f5997674cc7032ea3ee59d9864863732":
   "integrity" "sha512-wIWSQlTdh3Mg28dDfwS1kTYbRdj2y+X3fdxG5uh1qQSVRmHBtP0Y3zf8tJwI50nfE8tHA9UkUDPL3S3UWu8DdA=="
-  "resolved" "git+ssh://git@github.com/strapi/ts-zen.git#66e02232f5997674cc7032ea3ee59d9864863732"
+  "resolved" "git+https://github.com/strapi/ts-zen.git#66e02232f5997674cc7032ea3ee59d9864863732"
   "version" "0.1.7"
 
 "tslib@^1.10.0", "tslib@^1.9.0", "tslib@^1.9.3":
